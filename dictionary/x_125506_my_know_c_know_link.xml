@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="KNOW Link" max_length="40" name="x_125506_my_know_c_know_link" type="collection">
+        <element label="Content Link" max_length="512" name="content_link" type="url"/>
+        <element display="true" label="Content Post Name" mandatory="true" max_length="255" name="content_post_name" type="string"/>
+        <element label="Formats" max_length="1024" name="formats" reference="x_125506_my_know_c_tamara_sylte" type="glide_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Presenter" max_length="128" name="presenter" type="string"/>
+        <element label="Presenting Company" max_length="128" name="presenting_company" type="string"/>
+        <element label="Reviews - Journal field" max_length="5000" name="reviews" type="journal"/>
+        <element label="Add a Review" max_length="4000" name="review_input" type="journal_input"/>
+        <element dependent="review_input" dependent_on_field="review_input" label="Review List" max_length="4000" name="review_list" type="journal_list" use_dependent_field="true"/>
+        <element label="Session Code" max_length="40" name="session_code" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="u_source" type="string">
+            <choice>
+                <element inactive_on_update="false" label="KNOW 18" sequence="0" value="know_18"/>
+                <element inactive_on_update="false" label="KNOW 19" sequence="1" value="know_19"/>
+                <element inactive_on_update="false" label="KNOW 20" sequence="2" value="know_20"/>
+                <element inactive_on_update="false" label="Community Post" sequence="3" value="community_post"/>
+                <element inactive_on_update="false" label="Developer Blog" sequence="4" value="developer_blog"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

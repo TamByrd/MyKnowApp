@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="My KNOW Content">84bea3d837bf3300deed435973990ea6</application>
+        <filter/>
+        <name>KNOW Link</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_125506_my_know_c.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>tsylte</sys_created_by>
+        <sys_created_on>2019-09-06 12:44:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08bea3d837bf3300deed435973990ea8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KNOW Link</sys_name>
+        <sys_package display_value="My KNOW Content" source="x_125506_my_know_c">0bae63d837bf3300deed435973990ee8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My KNOW Content">0bae63d837bf3300deed435973990ee8</sys_scope>
+        <sys_update_name>sys_ui_module_08bea3d837bf3300deed435973990ea8</sys_update_name>
+        <sys_updated_by>tsylte</sys_updated_by>
+        <sys_updated_on>2019-09-06 12:44:05</sys_updated_on>
+        <table>x_125506_my_know_c_know_link</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

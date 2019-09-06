@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>formats</element>
+        <name>x_125506_my_know_c_know_link</name>
+        <style>width: 220px !important;&#13;
+float: left;</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>tsylte</sys_created_by>
+        <sys_created_on>2019-09-06 13:18:27</sys_created_on>
+        <sys_id>9b86b31437ff3300deed435973990e52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_125506_my_know_c_know_link</sys_name>
+        <sys_package display_value="My KNOW Content" source="x_125506_my_know_c">0bae63d837bf3300deed435973990ee8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My KNOW Content">0bae63d837bf3300deed435973990ee8</sys_scope>
+        <sys_update_name>sys_ui_style_9b86b31437ff3300deed435973990e52</sys_update_name>
+        <sys_updated_by>tsylte</sys_updated_by>
+        <sys_updated_on>2019-09-06 13:31:28</sys_updated_on>
+        <value/>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b86b31437ff3300deed435973990e52"/>
+</record_update>
